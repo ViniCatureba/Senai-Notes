@@ -1,0 +1,52 @@
+--USE NotesAlpha;
+
+--CREATE TABLE Usuarios (
+--    idUsuario INT PRIMARY KEY IDENTITY,
+--    Email VARCHAR(100) NOT NULL,
+--    Nome VARCHAR(100) NOT NULL,
+--    Senha VARCHAR(MAX) NOT NULL,
+--    urlFoto NVARCHAR(100),
+--    Tema BINARY,
+--    Fonte BINARY
+--);
+
+--CREATE TABLE HistoricoNota(
+--    idHistoNota INT PRIMARY KEY IDENTITY,
+--	ultimoReflesh DATETIME NOT NULL,
+--    conteudoAnterior NVARCHAR NOT NULL
+--);
+
+--CREATE TABLE Anexo(
+--   idAnexo INT PRIMARY KEY IDENTITY,
+--   URL NVARCHAR NOT NULL,
+--   dataUpload DATETIME NOT NULL,
+--   nomeArquivo VARCHAR (MAX) NOT NULL
+--);
+
+--CREATE TABLE TAG(
+--   idTag INT PRIMARY KEY IDENTITY,
+--   Nome VARCHAR(100) NOT NULL,
+--);
+
+--CREATE TABLE Notas (
+--    idNota INT PRIMARY KEY IDENTITY, 
+--    idUsuario INT, 
+--	FOREIGN KEY (idUsuario) REFERENCES Usuarios(idUsuario),
+--    idAnexo INT,
+--	FOREIGN KEY (idAnexo) REFERENCES Anexo(idAnexo),
+--    idHistoNota INT,
+--	FOREIGN KEY (idHistoNota) REFERENCES HistoricoNota(idHistoNota),
+--    Titulo VARCHAR(100) NOT NULL,
+--    Conteudo NVARCHAR (MAX) NOT NULL,
+--    ultimoRefresh DATETIME NOT NULL,
+--    dataCriacao DATETIME NOT NULL,
+--);
+
+--CREATE TABLE NotaTag(
+--   idNotaTag INT PRIMARY KEY IDENTITY,
+--   idNota INT, 
+--   FOREIGN KEY (idNota) REFERENCES Notas (idNota),
+--   idTag INT,
+--   FOREIGN KEY (idTag) REFERENCES Tag (idTag),
+--);
+  
