@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\senai notas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\senai notas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Senai Notas",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Senai Notas.csproj",
-              "RelativeDocumentMoniker": "Senai Notas\\Senai Notas.csproj",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Senai Notas.csproj",
-              "RelativeToolTip": "Senai Notas\\Senai Notas.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-13T23:21:14.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Program.cs",
               "RelativeDocumentMoniker": "Senai Notas\\Program.cs",
               "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Program.cs",
               "RelativeToolTip": "Senai Notas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T23:08:00.963Z",
               "EditorCaption": ""
