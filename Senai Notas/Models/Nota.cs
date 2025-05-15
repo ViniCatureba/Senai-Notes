@@ -11,19 +11,19 @@ public partial class Nota
 
     public int? IdAnexo { get; set; }
 
-    public int? IdHistoNota { get; set; }
+    public string? Titulo { get; set; }
 
-    public string Titulo { get; set; } = null!;
+    public string? Conteudo { get; set; }
 
-    public string Conteudo { get; set; } = null!;
+    public DateTime? UltimoRefresh { get; set; }
 
-    public DateTime UltimoRefresh { get; set; }
+    public DateTime? DataCriacao { get; set; }
 
-    public DateTime DataCriacao { get; set; }
+    public bool? Arquivado { get; set; }
+
+    public bool Status { get; set; }
 
     public virtual Anexo? IdAnexoNavigation { get; set; }
-
-    public virtual HistoricoNotum? IdHistoNotaNavigation { get; set; }
 
     public virtual Usuario? IdUsuarioNavigation { get; set; }
 

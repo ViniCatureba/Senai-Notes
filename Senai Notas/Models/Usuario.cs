@@ -15,9 +15,9 @@ public partial class Usuario
 
     public string? UrlFoto { get; set; }
 
-    public byte[]? Tema { get; set; }
+    public bool Tema { get; set; }
 
-    public byte[]? Fonte { get; set; }
+    public bool Fonte { get; set; }
 
     public virtual ICollection<Nota> Nota { get; set; } = new List<Nota>();
 }
