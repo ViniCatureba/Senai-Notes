@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Senai Notas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e01a1deea626af6ef95fc2f42dc37b685f71ea98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7618198e1e308ceccc1d0ba03bbb3ddfb20a7efc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Senai Notas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Senai Notas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
