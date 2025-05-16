@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\",
+  "WorkspaceRootPath": "C:\\Senai-Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\context\\projetosenaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\senai-notes\\senai notas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\senai-notes\\senai notas\\repositories\\anexorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\repositories\\anexorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\senai-notes\\senai notas\\context\\projetosenaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\context\\projetosenaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\senai-notes\\senai notas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,33 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NotaRepository.cs",
+              "DocumentMoniker": "C:\\Senai-Notes\\Senai Notas\\Repositories\\NotaRepository.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Repositories\\NotaRepository.cs",
+              "ToolTip": "C:\\Senai-Notes\\Senai Notas\\Repositories\\NotaRepository.cs",
+              "RelativeToolTip": "Senai Notas\\Repositories\\NotaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:47:51.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnexoRepository.cs",
+              "DocumentMoniker": "C:\\Senai-Notes\\Senai Notas\\Repositories\\AnexoRepository.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Repositories\\AnexoRepository.cs",
+              "ToolTip": "C:\\Senai-Notes\\Senai Notas\\Repositories\\AnexoRepository.cs*",
+              "RelativeToolTip": "Senai Notas\\Repositories\\AnexoRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T02:33:33.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ProjetoSenaiContext.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Context\\ProjetoSenaiContext.cs",
+              "DocumentMoniker": "C:\\Senai-Notes\\Senai Notas\\Context\\ProjetoSenaiContext.cs",
               "RelativeDocumentMoniker": "Senai Notas\\Context\\ProjetoSenaiContext.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Context\\ProjetoSenaiContext.cs",
+              "ToolTip": "C:\\Senai-Notes\\Senai Notas\\Context\\ProjetoSenaiContext.cs",
               "RelativeToolTip": "Senai Notas\\Context\\ProjetoSenaiContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T23:03:37.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Program.cs",
+              "DocumentMoniker": "C:\\Senai-Notes\\Senai Notas\\Program.cs",
               "RelativeDocumentMoniker": "Senai Notas\\Program.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Program.cs",
+              "ToolTip": "C:\\Senai-Notes\\Senai Notas\\Program.cs",
               "RelativeToolTip": "Senai Notas\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T23:08:00.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T23:08:00.963Z"
             }
           ]
         }
