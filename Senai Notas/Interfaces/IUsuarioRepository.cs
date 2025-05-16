@@ -8,8 +8,9 @@ namespace Senai_Notas.Interfaces
         // Retorna todos os usuários de forma assíncrona
         Task<IEnumerable<Usuario>> ListarTodosAsync();
 
-        // Busca um usuário pelo ID de forma assíncrona
+        // Busca um usuário pelo ID e email
         Task<Usuario?> BuscarPorIdAsync(int id);
+        Task<Usuario?> BuscarPorEmailAsync(string email);
 
         // Cadastra um novo usuário de forma assíncrona
         Task CadastrarAsync(Usuario usuario);

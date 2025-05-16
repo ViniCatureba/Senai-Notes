@@ -3,10 +3,11 @@ using Senai_Notas.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Senai_Notas.Interfaces;
 
 namespace Senai_Notas.Repositories
 {
-    public class NotaRepository
+    public class NotaRepository : INotaRepository
     {
         private readonly ProjetoSenaiContext _context;
 
@@ -15,7 +16,7 @@ namespace Senai_Notas.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Nota>> ListarAsync()
+        public async Task<IEnumerable<Nota>> ListarTodosAsync()
         {
             return await _context.Notas.ToListAsync();
         }
@@ -25,19 +26,32 @@ namespace Senai_Notas.Repositories
             return await _context.Notas.FindAsync(id);
         }
 
-        public async Task AdicionarAsync(Nota nota)
+        public async Task CadastrarAsync(Nota nota)
         {
             await _context.Notas.AddAsync(nota);
             await _context.SaveChangesAsync();
         }
 
-        public async Task AtualizarAsync(Nota nota)
+        public async Task AtualizarAsync(int id, Nota nota)
         {
-            _context.Notas.Update(nota);
-            await _context.SaveChangesAsync();
+            var notaExistente = await _context.Notas.FindAsync(id);
+            if (notaExistente != null)
+            {
+                notaExistente.Titulo = nota.Titulo;
+                notaExistente.Conteudo = nota.Conteudo;
+                notaExistente.UltimoRefresh = nota.UltimoRefresh;
+                notaExistente.DataCriacao = nota.DataCriacao;
+                notaExistente.Arquivado = nota.Arquivado;
+                notaExistente.Status = nota.Status;
+                notaExistente.IdUsuario = nota.IdUsuario;
+                notaExistente.IdAnexo = nota.IdAnexo;
+
+                _context.Notas.Update(notaExistente);
+                await _context.SaveChangesAsync();
+            }
         }
 
-        public async Task RemoverAsync(int id)
+        public async Task DeletarAsync(int id)
         {
             var nota = await _context.Notas.FindAsync(id);
             if (nota != null)
