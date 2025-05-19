@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Senai_Notas.Models;
 using Senai_Notas.Interfaces;
+using Senai_Notas.DTO;
 
 namespace Senai_Notas.Controllers
 {
@@ -42,11 +43,11 @@ namespace Senai_Notas.Controllers
         /// Cadastra um novo usuário.
         /// </summary>
         [HttpPost]
-        public async Task<ActionResult> Create([FromBody] Usuario usuario)
+        public async Task<ActionResult> Create([FromBody] CadastrarUsuarioDTO usuariodto)
         {
-            await _usuarioRepository.CadastrarAsync(usuario);
+            await _usuarioRepository.CadastrarAsync(usuariodto);
             // Retorna 201 Created com o local do novo recurso
-            return CreatedAtAction(nameof(GetById), new { id = usuario.IdUsuario }, usuario);
+            return Created();
         }
 
         /// <summary>

@@ -1,4 +1,5 @@
 ﻿
+using Senai_Notas.DTO;
 using Senai_Notas.Models;
 
 namespace Senai_Notas.Interfaces
@@ -10,10 +11,11 @@ namespace Senai_Notas.Interfaces
 
         // Busca um usuário pelo ID e email
         Task<Usuario?> BuscarPorIdAsync(int id);
+
         Task<Usuario?> BuscarPorEmailAsync(string email);
 
         // Cadastra um novo usuário de forma assíncrona
-        Task CadastrarAsync(Usuario usuario);
+        Task CadastrarAsync(CadastrarUsuarioDTO usuarioDTO);
 
         // Atualiza um usuário existente de forma assíncrona
         Task AtualizarAsync(int id, Usuario usuario);

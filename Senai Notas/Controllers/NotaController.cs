@@ -19,7 +19,7 @@ namespace Senai_Notas.Controllers
         /// <summary>
         /// Retorna todas as notas cadastradas.
         /// </summary>
-        [HttpGet]
+        [HttpGet] //TRAZER TAGS JUNTO COM NOTAS
         public async Task<ActionResult<IEnumerable<Nota>>> GetAll()
         {
             var notas = await _notaRepository.ListarTodosAsync();

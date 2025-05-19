@@ -19,5 +19,7 @@ namespace Senai_Notas.Interfaces
 
         // Remove uma relação NotaTag de forma assíncrona
         Task DeletarAsync(int id);
+
+        //tag por user
     }
 }

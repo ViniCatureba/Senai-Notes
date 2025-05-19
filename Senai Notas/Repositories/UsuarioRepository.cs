@@ -1,9 +1,12 @@
 ﻿using Senai_Notas.Context;
 using Senai_Notas.Models;
+using Senai_Notas.DTO;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Senai_Notas.Interfaces;
+using Senai_Notas.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Senai_Notas.Repositories
 {
@@ -31,9 +34,16 @@ namespace Senai_Notas.Repositories
             return await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == email);
         }
 
-        public async Task CadastrarAsync(Usuario usuario)
+        public async Task CadastrarAsync(CadastrarUsuarioDTO usuarioDTO)
         {
-            await _context.Usuarios.AddAsync(usuario);
+            var passwordService = new PasswordService();
+            var usuarioCadastro = new Usuario
+            {
+                Nome = usuarioDTO.Nome,
+                Email = usuarioDTO.Email,
+            };
+            usuarioCadastro.Senha = passwordService.HashPassword(usuarioDTO.Senha);
+            await _context.Usuarios.AddAsync(usuarioCadastro);
             await _context.SaveChangesAsync();
         }
 
@@ -63,5 +73,9 @@ namespace Senai_Notas.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+       
+
+        
     }
 }
