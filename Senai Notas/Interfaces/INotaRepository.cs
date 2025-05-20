@@ -19,6 +19,8 @@ namespace Senai_Notas.Interfaces
         // Remove uma nota de forma assíncrona
         Task DeletarAsync(int id);
 
+        Task NotasDeUmUsuario(int id);  
+
         //nota por user, trazer tags tmb
 
         //Buscar ««

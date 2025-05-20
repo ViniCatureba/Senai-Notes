@@ -60,5 +60,10 @@ namespace Senai_Notas.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public Task NotasDeUmUsuario(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

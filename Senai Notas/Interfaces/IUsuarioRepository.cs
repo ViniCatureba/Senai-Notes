@@ -6,10 +6,10 @@ namespace Senai_Notas.Interfaces
 {
     public interface IUsuarioRepository
     {
-        // Retorna todos os usuários de forma assíncrona
+        // Retorna todos os usuários de forma assíncrona  -  Retirar
         Task<IEnumerable<Usuario>> ListarTodosAsync();
 
-        // Busca um usuário pelo ID e email
+        // Busca um usuário pelo ID e email 
         Task<Usuario?> BuscarPorIdAsync(int id);
 
         Task<Usuario?> BuscarPorEmailAsync(string email);

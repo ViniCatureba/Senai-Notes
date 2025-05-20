@@ -53,5 +53,10 @@ namespace Senai_Notas.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public Task NotasDeUmUser(Usuario IdUsuario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
