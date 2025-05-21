@@ -20,5 +20,8 @@ namespace Senai_Notas.Interfaces
 
         // Remove uma tag de forma assíncrona
         Task DeletarAsync(int id);
+
+        // Retorna todas as tags associadas a um usuário específico
+        Task<List<Tag>> BuscarTagsPorUsuarioId(int idUsuario);
     }
 }

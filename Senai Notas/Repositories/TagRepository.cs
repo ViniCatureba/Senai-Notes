@@ -52,5 +52,10 @@ namespace Senai_Notas.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public Task<List<Tag>> BuscarTagsPorUsuarioId(int idUsuario)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

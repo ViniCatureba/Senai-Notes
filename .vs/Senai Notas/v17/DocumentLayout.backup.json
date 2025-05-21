@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\context\\projetosenaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\context\\projetosenaicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\interfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\interfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\repositories\\notarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\dto\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\dto\\cadastrarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|c:\\users\\vinic\\desktop\\c#\\senai notes\\senai notas\\interfaces\\inotatagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF060A7A-9CD7-427A-9C42-9FDDE74198C7}|Senai Notas\\Senai Notas.csproj|solutionrelative:senai notas\\interfaces\\inotatagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjetoSenaiContext.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Context\\ProjetoSenaiContext.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Context\\ProjetoSenaiContext.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Context\\ProjetoSenaiContext.cs",
+              "RelativeToolTip": "Senai Notas\\Context\\ProjetoSenaiContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA4wB4AAABfAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:46:17.835Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Senai Notas\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Senai Notas\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Interfaces\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Interfaces\\ITagRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Interfaces\\ITagRepository.cs",
+              "RelativeToolTip": "Senai Notas\\Interfaces\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:45:19.123Z",
+              "WhenOpened": "2025-05-20T00:35:18.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Repositories\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Senai Notas\\Repositories\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Repositories\\UsuarioRepository.cs",
-              "RelativeToolTip": "Senai Notas\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwC4AAAAuAAAAAAAAAA==",
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Repositories\\TagRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "Senai Notas\\Repositories\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:35:27.267Z",
+              "WhenOpened": "2025-05-20T00:35:15.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "INotaTagRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Interfaces\\INotaTagRepository.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Interfaces\\INotaTagRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Interfaces\\INotaTagRepository.cs",
+              "RelativeToolTip": "Senai Notas\\Interfaces\\INotaTagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:24:42.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "Senai Notas\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Interfaces\\IUsuarioRepository.cs*",
-              "RelativeToolTip": "Senai Notas\\Interfaces\\IUsuarioRepository.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "NotaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Repositories\\NotaRepository.cs",
+              "RelativeDocumentMoniker": "Senai Notas\\Repositories\\NotaRepository.cs",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\Repositories\\NotaRepository.cs",
+              "RelativeToolTip": "Senai Notas\\Repositories\\NotaRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:31:34.87Z",
+              "WhenOpened": "2025-05-20T00:24:37.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CadastrarUsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\DTO\\CadastrarUsuarioDTO.cs",
               "RelativeDocumentMoniker": "Senai Notas\\DTO\\CadastrarUsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\DTO\\CadastrarUsuarioDTO.cs*",
-              "RelativeToolTip": "Senai Notas\\DTO\\CadastrarUsuarioDTO.cs*",
+              "ToolTip": "C:\\Users\\vinic\\Desktop\\C#\\Senai Notes\\Senai Notas\\DTO\\CadastrarUsuarioDTO.cs",
+              "RelativeToolTip": "Senai Notas\\DTO\\CadastrarUsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T00:31:19.425Z",
